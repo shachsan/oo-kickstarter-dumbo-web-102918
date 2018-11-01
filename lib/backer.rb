@@ -13,7 +13,7 @@ class Backer
     @backed_projects << project_name
     Project.add_backer << self
     binding.pry
-
+puts ""
   end
 0
 end
