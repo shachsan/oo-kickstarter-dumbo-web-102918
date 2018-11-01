@@ -10,9 +10,10 @@ class Backer
 
   def back_project(project_name)
     # project = Project.new(project_name)
+
     @backed_projects << project_name
     Project.add_backer << self
-  
+
 puts "hh"
   end
 
